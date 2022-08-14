@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateExample2", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegateExample1", "MulticastDelegateExample1\MulticastDelegateExample1.csproj", "{D7A86EDD-BFEE-4A00-992C-830AA0A6D20D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegateExample2", "MulticastDelegateExample2\MulticastDelegateExample2.csproj", "{0791A4A8-8174-423A-8A89-CD97103B877F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{D7A86EDD-BFEE-4A00-992C-830AA0A6D20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A86EDD-BFEE-4A00-992C-830AA0A6D20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A86EDD-BFEE-4A00-992C-830AA0A6D20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0791A4A8-8174-423A-8A89-CD97103B877F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0791A4A8-8174-423A-8A89-CD97103B877F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0791A4A8-8174-423A-8A89-CD97103B877F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0791A4A8-8174-423A-8A89-CD97103B877F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8862C1E7-FEBF-43FC-A7EE-609EAB7C7CCB} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
 		{D66B42C1-56C8-41FA-9D34-FB144FD4AC42} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
+		{D7A86EDD-BFEE-4A00-992C-830AA0A6D20D} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
+		{0791A4A8-8174-423A-8A89-CD97103B877F} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
