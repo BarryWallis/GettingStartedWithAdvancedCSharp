@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegateExample2",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegateExample2a", "MulticastDelegateExample2a\MulticastDelegateExample2a.csproj", "{272045BE-3BFB-47FE-BB46-92A3558D2183}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudyWithOverloadedMethods", "CaseStudyWithOverloadedMethods\CaseStudyWithOverloadedMethods.csproj", "{2BA27EA3-B0B6-46E5-91A2-E0235C487BCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{272045BE-3BFB-47FE-BB46-92A3558D2183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{272045BE-3BFB-47FE-BB46-92A3558D2183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{272045BE-3BFB-47FE-BB46-92A3558D2183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA27EA3-B0B6-46E5-91A2-E0235C487BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA27EA3-B0B6-46E5-91A2-E0235C487BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA27EA3-B0B6-46E5-91A2-E0235C487BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA27EA3-B0B6-46E5-91A2-E0235C487BCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{D7A86EDD-BFEE-4A00-992C-830AA0A6D20D} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
 		{0791A4A8-8174-423A-8A89-CD97103B877F} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
 		{272045BE-3BFB-47FE-BB46-92A3558D2183} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
+		{2BA27EA3-B0B6-46E5-91A2-E0235C487BCA} = {82B0D8EA-3707-43BF-9F11-A8DB4DA9ADD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
