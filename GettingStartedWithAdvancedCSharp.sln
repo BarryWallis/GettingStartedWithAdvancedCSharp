@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContravarianceWithNonGeneri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter02", "Chapter02", "{D995806F-1D35-43AF-B55E-C21AE0A2F9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventEx1", "EventEx1\EventEx1.csproj", "{20FF892B-278A-455B-ADEA-59CD400B3257}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsEx1", "EventEx1\EventsEx1.csproj", "{20FF892B-278A-455B-ADEA-59CD400B3257}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿namespace EventEx1;
+﻿namespace EventsEx1;
 
 internal class Receiver
 {

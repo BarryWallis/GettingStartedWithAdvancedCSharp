@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using EventEx1;
+using EventsEx1;
 
 Console.WriteLine("*** Exploring Events ***");
 Sender _sender = new();
