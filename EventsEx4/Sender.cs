@@ -9,14 +9,20 @@ internal class Sender
 	{
 		add
 		{
-			Console.WriteLine("*** Inside add accesor entry point.");
-			_myIntChanged += value;
+			lock (this)
+			{
+				Console.WriteLine("*** Inside add accesor entry point.");
+				_myIntChanged += value;
+			}
 		}
 
 		remove
 		{
-			_myIntChanged -= value;
-			Console.WriteLine("*** Inside remove accessor exit point.");
+			lock (this)
+			{
+				_myIntChanged -= value;
+				Console.WriteLine("*** Inside remove accessor exit point.");
+			}
 		}
 	}
 
