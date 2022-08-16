@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionEx2", "Lamb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodiedMethodDemo", "ExpressionBodiedMethodDemo\ExpressionBodiedMethodDemo.csproj", "{F929549B-8C94-4F2E-99E1-FCE369AED5CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodiedPropertiesDemo", "ExpressionBodiedPropertiesDemo\ExpressionBodiedPropertiesDemo.csproj", "{B775C18A-0E9F-4EA5-8344-34D21ABAA063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -371,6 +373,22 @@ Global
 		{F929549B-8C94-4F2E-99E1-FCE369AED5CB}.Release|x64.Build.0 = Release|Any CPU
 		{F929549B-8C94-4F2E-99E1-FCE369AED5CB}.Release|x86.ActiveCfg = Release|Any CPU
 		{F929549B-8C94-4F2E-99E1-FCE369AED5CB}.Release|x86.Build.0 = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|arm64.Build.0 = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|x64.Build.0 = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Debug|x86.Build.0 = Debug|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|arm64.ActiveCfg = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|arm64.Build.0 = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|x64.ActiveCfg = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|x64.Build.0 = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|x86.ActiveCfg = Release|Any CPU
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -395,6 +413,7 @@ Global
 		{D1AF2738-8C9A-4C7E-A3A5-5DDE42C1253C} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
 		{89725886-1346-44D8-94B0-DC9BCA86B561} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
 		{F929549B-8C94-4F2E-99E1-FCE369AED5CB} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
+		{B775C18A-0E9F-4EA5-8344-34D21ABAA063} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
