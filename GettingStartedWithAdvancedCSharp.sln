@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionBodiedMethodDemo"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionBodiedPropertiesDemo", "ExpressionBodiedPropertiesDemo\ExpressionBodiedPropertiesDemo.csproj", "{B775C18A-0E9F-4EA5-8344-34D21ABAA063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingLocalVariableScopeUsingLambdaExpression", "TestingLocalVariableScopeUsingLambdaExpression\TestingLocalVariableScopeUsingLambdaExpression.csproj", "{111B0AA5-D960-49BB-9E33-0F1D551C1B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingLocalVariableScopeUsingLambdaExpression", "TestingLocalVariableScopeUsingLambdaExpression\TestingLocalVariableScopeUsingLambdaExpression.csproj", "{111B0AA5-D960-49BB-9E33-0F1D551C1B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingTuplesInLambdaExpressions", "UsingTuplesInLambdaExpressions\UsingTuplesInLambdaExpressions.csproj", "{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -407,6 +409,22 @@ Global
 		{111B0AA5-D960-49BB-9E33-0F1D551C1B0D}.Release|x64.Build.0 = Release|Any CPU
 		{111B0AA5-D960-49BB-9E33-0F1D551C1B0D}.Release|x86.ActiveCfg = Release|Any CPU
 		{111B0AA5-D960-49BB-9E33-0F1D551C1B0D}.Release|x86.Build.0 = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|arm64.Build.0 = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|x64.Build.0 = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Debug|x86.Build.0 = Debug|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|arm64.ActiveCfg = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|arm64.Build.0 = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|x64.ActiveCfg = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|x64.Build.0 = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -433,6 +451,7 @@ Global
 		{F929549B-8C94-4F2E-99E1-FCE369AED5CB} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
 		{B775C18A-0E9F-4EA5-8344-34D21ABAA063} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
 		{111B0AA5-D960-49BB-9E33-0F1D551C1B0D} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
+		{5FE67EC2-C6BA-4E14-9E53-AF3136A14DC5} = {3754B8CA-CA30-4DA0-80B8-CD80DBF005C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
