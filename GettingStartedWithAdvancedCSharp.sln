@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceWithGenericDelega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceWithGenericInterface", "CovarianceWithGenericInterface\CovarianceWithGenericInterface.csproj", "{082026A1-957C-4B2D-A5D1-EA50D142AB9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContravarianceWithGenericDelegates", "ContravarianceWithGenericDelegates\ContravarianceWithGenericDelegates.csproj", "{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -625,6 +627,22 @@ Global
 		{082026A1-957C-4B2D-A5D1-EA50D142AB9F}.Release|x64.Build.0 = Release|Any CPU
 		{082026A1-957C-4B2D-A5D1-EA50D142AB9F}.Release|x86.ActiveCfg = Release|Any CPU
 		{082026A1-957C-4B2D-A5D1-EA50D142AB9F}.Release|x86.Build.0 = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|arm64.Build.0 = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|x64.Build.0 = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Debug|x86.Build.0 = Debug|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|arm64.ActiveCfg = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|arm64.Build.0 = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|x64.ActiveCfg = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|x64.Build.0 = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|x86.ActiveCfg = Release|Any CPU
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -663,6 +681,7 @@ Global
 		{68F86098-BDC1-453A-A207-A87CA6D10284} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
 		{4F0A647C-83AA-49CB-8E95-5B7D8A9D503C} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
 		{082026A1-957C-4B2D-A5D1-EA50D142AB9F} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
+		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
