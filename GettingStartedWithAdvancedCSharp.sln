@@ -65,23 +65,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonGenericProgram2", "NonGe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericProgramDemo2", "GenericProgramDemo2\GenericProgramDemo2.csproj", "{28999895-9FD8-4883-B709-E48FDF4977D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegatesDemo", "GenericDelegatesDemo\GenericDelegatesDemo.csproj", "{D70254A2-E695-4F48-B159-AAD34F9C4011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericDelegatesDemo", "GenericDelegatesDemo\GenericDelegatesDemo.csproj", "{D70254A2-E695-4F48-B159-AAD34F9C4011}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingDefaultKeywordInGenerics", "UsingDefaultKeywordGenerics\UsingDefaultKeywordInGenerics.csproj", "{4F49A0CB-93BB-428C-874D-A391AD8A9EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingDefaultKeywordInGenerics", "UsingDefaultKeywordGenerics\UsingDefaultKeywordInGenerics.csproj", "{4F49A0CB-93BB-428C-874D-A391AD8A9EA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementGenericInterface", "ImplementGenericInterface\ImplementGenericInterface.csproj", "{BBEC92D5-86E0-4A66-8378-D42561C028C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementGenericInterface", "ImplementGenericInterface\ImplementGenericInterface.csproj", "{BBEC92D5-86E0-4A66-8378-D42561C028C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingConstraintsInGenerics", "UsingConstraintsInGenerics\UsingConstraintsInGenerics.csproj", "{68F86098-BDC1-453A-A207-A87CA6D10284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingConstraintsInGenerics", "UsingConstraintsInGenerics\UsingConstraintsInGenerics.csproj", "{68F86098-BDC1-453A-A207-A87CA6D10284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceWithGenericDelegates", "CovarianceWithGenericDelegates\CovarianceWithGenericDelegates.csproj", "{4F0A647C-83AA-49CB-8E95-5B7D8A9D503C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceWithGenericDelegates", "CovarianceWithGenericDelegates\CovarianceWithGenericDelegates.csproj", "{4F0A647C-83AA-49CB-8E95-5B7D8A9D503C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceWithGenericInterface", "CovarianceWithGenericInterface\CovarianceWithGenericInterface.csproj", "{082026A1-957C-4B2D-A5D1-EA50D142AB9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceWithGenericInterface", "CovarianceWithGenericInterface\CovarianceWithGenericInterface.csproj", "{082026A1-957C-4B2D-A5D1-EA50D142AB9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContravarianceWithGenericDelegates", "ContravarianceWithGenericDelegates\ContravarianceWithGenericDelegates.csproj", "{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContravarianceWithGenericDelegates", "ContravarianceWithGenericDelegates\ContravarianceWithGenericDelegates.csproj", "{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingDemo", "MethodOverridingDemo\MethodOverridingDemo.csproj", "{9753CAEE-88CB-4CA2-8ACD-9D5122FFBD91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverridingDemo", "MethodOverridingDemo\MethodOverridingDemo.csproj", "{9753CAEE-88CB-4CA2-8ACD-9D5122FFBD91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloadingDemo", "MethodOverloadingDemo\MethodOverloadingDemo.csproj", "{6B6AB72C-65F6-4E50-8050-E65DB8A72C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverloadingDemo", "MethodOverloadingDemo\MethodOverloadingDemo.csproj", "{6B6AB72C-65F6-4E50-8050-E65DB8A72C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReferencingGenericTypeDemo", "SelfReferencingGenericTypeDemo\SelfReferencingGenericTypeDemo.csproj", "{64CA42BE-8170-4FC0-97CB-19CF63F370B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -679,6 +681,22 @@ Global
 		{6B6AB72C-65F6-4E50-8050-E65DB8A72C4D}.Release|x64.Build.0 = Release|Any CPU
 		{6B6AB72C-65F6-4E50-8050-E65DB8A72C4D}.Release|x86.ActiveCfg = Release|Any CPU
 		{6B6AB72C-65F6-4E50-8050-E65DB8A72C4D}.Release|x86.Build.0 = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|arm64.Build.0 = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|x64.Build.0 = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Debug|x86.Build.0 = Debug|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|arm64.ActiveCfg = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|arm64.Build.0 = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|x64.ActiveCfg = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|x64.Build.0 = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|x86.ActiveCfg = Release|Any CPU
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -720,6 +738,7 @@ Global
 		{6490A72D-ECCF-4D5A-A1C1-3366C8E3B234} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
 		{9753CAEE-88CB-4CA2-8ACD-9D5122FFBD91} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
 		{6B6AB72C-65F6-4E50-8050-E65DB8A72C4D} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
+		{64CA42BE-8170-4FC0-97CB-19CF63F370B0} = {75E0FDCE-20F5-4BCE-BADA-2D7C912B9223}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
