@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadProgrammingExample5",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMainThread", "UsingMainThread\UsingMainThread.csproj", "{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingBackgroundThreads", "TestingBackgroundThreads\TestingBackgroundThreads.csproj", "{0C23EC67-DC96-4412-BBA4-07A22008D58C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -825,6 +827,22 @@ Global
 		{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7}.Release|x64.Build.0 = Release|Any CPU
 		{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7}.Release|x86.ActiveCfg = Release|Any CPU
 		{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7}.Release|x86.Build.0 = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|arm64.Build.0 = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|x64.Build.0 = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Debug|x86.Build.0 = Debug|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|arm64.ActiveCfg = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|arm64.Build.0 = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x64.ActiveCfg = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x64.Build.0 = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -874,6 +892,7 @@ Global
 		{020AC927-3CB3-4259-9D73-8E1EE1C9B08F} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
 		{60C269D2-9676-41F5-B8DC-26BD27AF3DB7} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
 		{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
+		{0C23EC67-DC96-4412-BBA4-07A22008D58C} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
