@@ -93,15 +93,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadProgrammingExample1",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadProgrammingExample2", "ThreadProgrammingExample2\ThreadProgrammingExample2.csproj", "{5218CD8D-A092-4579-AC7D-1F6AD79CFC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingParameterizedThreadStartDelegste", "UsingParameterizedThreadStartDelegste\UsingParameterizedThreadStartDelegste.csproj", "{375F6F78-5040-4A16-999D-25C698A88826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingParameterizedThreadStartDelegste", "UsingParameterizedThreadStartDelegste\UsingParameterizedThreadStartDelegste.csproj", "{375F6F78-5040-4A16-999D-25C698A88826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadProgrammingExample4", "ThreadProgrammingExample4\ThreadProgrammingExample4.csproj", "{020AC927-3CB3-4259-9D73-8E1EE1C9B08F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadProgrammingExample4", "ThreadProgrammingExample4\ThreadProgrammingExample4.csproj", "{020AC927-3CB3-4259-9D73-8E1EE1C9B08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadProgrammingExample5", "ThreadProgrammingExample5\ThreadProgrammingExample5.csproj", "{60C269D2-9676-41F5-B8DC-26BD27AF3DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadProgrammingExample5", "ThreadProgrammingExample5\ThreadProgrammingExample5.csproj", "{60C269D2-9676-41F5-B8DC-26BD27AF3DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMainThread", "UsingMainThread\UsingMainThread.csproj", "{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingMainThread", "UsingMainThread\UsingMainThread.csproj", "{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingBackgroundThreads", "TestingBackgroundThreads\TestingBackgroundThreads.csproj", "{0C23EC67-DC96-4412-BBA4-07A22008D58C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingBackgroundThreads", "TestingBackgroundThreads\TestingBackgroundThreads.csproj", "{0C23EC67-DC96-4412-BBA4-07A22008D58C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploringTheNeedForSynchronizationInDotNetCore", "ExploringTheNeedForSynchronizationInDotNetCore\ExploringTheNeedForSynchronizationInDotNetCore.csproj", "{3F5F08E7-1A20-4D92-95A4-98498238DCAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -843,6 +845,22 @@ Global
 		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x64.Build.0 = Release|Any CPU
 		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x86.ActiveCfg = Release|Any CPU
 		{0C23EC67-DC96-4412-BBA4-07A22008D58C}.Release|x86.Build.0 = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|arm64.Build.0 = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|x64.Build.0 = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|arm64.ActiveCfg = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|arm64.Build.0 = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|x64.Build.0 = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -893,6 +911,7 @@ Global
 		{60C269D2-9676-41F5-B8DC-26BD27AF3DB7} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
 		{CEE2709F-02BE-4CF9-91CC-8942A9D50FE7} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
 		{0C23EC67-DC96-4412-BBA4-07A22008D58C} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
+		{3F5F08E7-1A20-4D92-95A4-98498238DCAD} = {A153F84A-1C43-45EA-9713-2CF72A3955A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {629E8A53-EA6C-4874-9CC1-F727683AF4AF}
