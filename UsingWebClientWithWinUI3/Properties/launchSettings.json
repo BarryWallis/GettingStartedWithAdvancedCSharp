@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UsingWebClientWithWinUI3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "UsingWebClientWithWinUI3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
